@@ -1,0 +1,151 @@
+
+body{
+  font-family: "Montserrat-Light",sans-serif;
+  font-weight: bold;
+  background-color: #ffffdd;
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+  padding:
+
+}
+/* Title image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+h2{
+  font-family: "Montserrat-Bold",sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat-Bold",sans-serif;
+  font-weight: bold;
+}
+p{
+  color: #afafaf;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.container-fluid{
+  padding: 3% 15% 9%;
+}
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+background-color: #ff4c68;
+}
+.nav-item{
+  padding: 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light",sans-serif;
+}
+
+.navbar-brand{
+  font-size : 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+/* Download -Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+.dog{
+  width: 10%;
+  border-radius: 200%;
+}
+.icon{
+  color:  #ff4c68;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ef8172;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Testimonial Section */
+#testimonials{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 7% 15%;
+  text-align: center;
+  background-color:#ef8172;
+  color: white;
+}
+#press{
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 7% 15%;
+  text-align: center;
+  background-color:#ef8172;
+}
+
+
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+.me{
+  border-radius: 35px
+}
+@media(max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+  border-radius: 50%;
+  padding: 7% 15%;
+  text-align: center;
+  background-color:#ef8172;
+
+}
+#footer{
+    padding: 7% 7%;
+  text-align: center;
+  color: #afafaf;
+}
+.footer-icon{
+  align-items: baseline;
+  margin: 3% 2%;
+  color: #afafaf;
+}
+.footer-icon:hover{
+  color: black;
+}
