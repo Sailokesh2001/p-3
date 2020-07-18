@@ -1,1 +1,1 @@
-TinDog Starting Files
+My first project with Tindog
